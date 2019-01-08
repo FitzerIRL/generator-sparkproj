@@ -2,6 +2,8 @@
 // https://code.visualstudio.com/Docs/editor/debugging
 // https://github.com/Microsoft/vscode/issues/102
 
+// Spark App Launch configurations.
+
 {
   "version": "0.2.0",
   "configurations": [
