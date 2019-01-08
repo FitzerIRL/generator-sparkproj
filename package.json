@@ -1,7 +1,7 @@
 {
   "name": "generator-sparkproj",
-  "version": "0.0.2",
-  "description": "Spark generator project",
+  "version": "0.0.4",
+  "description": "Yeoman for Spark projects",
   "homepage": "sparkui.org",
   "author": {
     "name": "Hugh Fitzpatrick",
@@ -13,8 +13,10 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "spark-generator",
-    "yeoman-generator"
+    "yeoman-generator",
+    "spark",
+    "generator",
+    "project"
   ],
   "devDependencies": {
     "eslint": "^5.9.0",
@@ -68,6 +70,9 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest"
+  },
+  "repository": {
+    "url": "https://github.com/FitzerIRL/generator-sparkproj"
   },
   "license": "Apache-2.0"
 }

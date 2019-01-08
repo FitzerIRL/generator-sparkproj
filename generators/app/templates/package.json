@@ -8,9 +8,6 @@
     "email": "",
     "url": ""
   },
-  "files": [
-    "generators"
-  ],
   "main": "dist/<%= appName %>.js",
   "keywords": [
     "spark"
