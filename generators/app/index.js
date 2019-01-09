@@ -41,8 +41,8 @@ module.exports = class extends Generator {
     );
 
     this.fs.copyTpl(
-      this.templatePath('.vscode/**'),
-      this.destinationPath(),
+      this.templatePath('.vscode/'),
+      this.destinationPath('.vscode/'),
       this.props
     );
 
