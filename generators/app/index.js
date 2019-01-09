@@ -41,6 +41,12 @@ module.exports = class extends Generator {
     );
 
     this.fs.copyTpl(
+      this.templatePath('.vscode'),
+      this.destinationPath(),
+      this.props
+    );
+
+    this.fs.copyTpl(
       this.templatePath('src/_appName.js'),
       this.destinationPath(`src/${appName}.js`),
       this.props
