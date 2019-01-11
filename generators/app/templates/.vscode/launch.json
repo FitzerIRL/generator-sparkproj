@@ -33,7 +33,7 @@
       "autoAttachChildProcesses": true,
       "cwd": "/Applications/Spark.app/Contents/MacOS",
       "runtimeExecutable": "/Applications/Spark.app/Contents/MacOS/Spark",
-      "args":["${workspaceFolder}/<%= appName %>.js"],
+      "args":["${workspaceFolder}/src/<%= appName %>.js"],
       "env" : {
       "LD_LIBRARY_PATH":"/Applications/Spark.app/Contents/MacOS/lib",
       "DYLD_LIBRARY_PATH":"/Applications/Spark.app/Contents/MacOS/lib"
