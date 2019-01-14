@@ -136,7 +136,7 @@
     "prefix": "spobjp",
     "body": [
       "var $name = scene.create({ t: 'object', parent: $2, x: 0, y: 0, w: 100, h: 100, interactive: false }) ",
-      "                 .then( o => {",
+      "                 .ready.then( o => {",
       "    // Handle promise",
       "    $0",
       "})"
@@ -159,7 +159,7 @@
     "prefix": "spimp",
     "body": [
       "var $1 = scene.create({ t: 'image', parent: $2, url: $3, x: 0, y: 0, interactive: false }) ",
-      "              .then( o => {",
+      "              .ready..then( o => {",
       "    // Handle promise",
       "    $0",
       "})"
@@ -184,7 +184,7 @@
     "prefix": "spirp",
     "body": [
       "var $1 = scene.create({ t: 'imageResource', url: $2 }) ",
-      "              .then( o => {",
+      "              .ready..then( o => {",
       "    // Handle promise",
       "    $3",
       "})",
@@ -210,7 +210,7 @@
     "prefix": "spfrp",
     "body": [
       "var $1 = scene.create({ t: 'fontResource', url: $2 }) ",
-      "              .then( o => {",
+      "              .ready..then( o => {",
       "    // Handle promise",
       "    $3",
       "})",
@@ -225,7 +225,7 @@
   "prefix": "sprect",
   "body": [
     "var $1 = scene.create({ t: 'rect', parent: $2, fillColor: '$3', lineColor: '#000', lineWidth: 0, x: 0, y: 0, w: 100, h: 100, interactive: false }) ",
-    "              .then( o => {",
+    "              .ready..then( o => {",
     "    // Handle promise",
     "    $3",
     "})",
@@ -240,7 +240,7 @@
     "prefix": "sprectp",
     "body": [
       "var $1 = scene.create({ t: 'rect', parent: $2, fillColor: '$3', lineColor: '#000', lineWidth: 0, x: 0, y: 0, w: 100, h: 100, interactive: false }) ",
-      "              .then( o => {",
+      "              .ready..then( o => {",
       "    // Handle promise",
       "    $3",
       "})",
@@ -268,7 +268,7 @@
     "body": [
       "var $1 = scene.create({t:'text', w: 100, h: 20, parent: $2, ",
       "                  pixelSize: 24, textColor:'#fff', text:  'MyText', interactive: false })",
-      "               .then( o => {",
+      "               .ready..then( o => {",
       "    // Handle promise",
       "    $3",
       "})",
@@ -300,7 +300,7 @@
       "                   pixelSize: 24, textColor: '#fff', font: _MyFont_, text:  'MyText', interactive: false, ",
       "                   alignVertical:   scene.alignVertical.CENTER,",
       "                   alignHorizontal: scene.alignHorizontal.CENTER})",
-      "                .then( o => {",
+      "                .ready..then( o => {",
       "    // Handle promise",
       "    $3",
       "  })",
@@ -395,7 +395,6 @@
     "});"
     ],
     "description": "Handle SPARK 'blur' event "
-  },
+  }
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 }
