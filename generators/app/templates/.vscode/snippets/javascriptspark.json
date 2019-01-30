@@ -186,7 +186,7 @@
       "var $1 = scene.create({ t: 'imageResource', url: $2 }) ",
       "              .ready.then( o => {",
       "    // Handle promise",
-      "    $3",
+      "    $0",
       "})",
       "$0"
     ],
@@ -212,7 +212,7 @@
       "var $1 = scene.create({ t: 'fontResource', url: $2 }) ",
       "              .ready.then( o => {",
       "    // Handle promise",
-      "    $3",
+      "    $0",
       "})",
       "$0"
     ],
@@ -264,7 +264,7 @@
       "                  pixelSize: 24, textColor:'#fff', text:  'MyText', interactive: false })",
       "               .ready.then( o => {",
       "    // Handle promise",
-      "    $3",
+      "    $0",
       "})",
       "$0"
     ],
